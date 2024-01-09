@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:wght@200&display=swap');
+/* 
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;  */
+/* font-family: 'Oswald', sans-serif;
+ */
+
+
+*{
+  max-width: 100vw;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  display: inline;
+  margin: 0;
+  
+}
+/* background */
+
+.background{
+  display: flex;
+  flex-direction: column;
+  height:max-content;
+  width:100%;
+  position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 70, 67, 0.5),rgba(0, 70, 67,0.5)), url("https://www.gannett-cdn.com/-mm-/da6df33e2de11997d965f4d81915ba4d1bd4586e/c=0-248-3131-2017/local/-/media/2017/06/22/USATODAY/USATODAY/636337466517310122-GettyImages-610156450.jpg")
+}
+
+.background-legend{
+  display: flex;
+  flex-direction: column;
+  height:max-content;
+  width:100%;
+  position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+  background-image: linear-gradient(rgba(0, 70, 67, 0.5),rgba(0, 70, 67,0.5)), url(/photos/bee.jpg)
+}
+
+.background-tig{
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  height:max-content;
+  width:100%;
+  position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 70, 67, 0.5),rgba(0, 70, 67,0.5)), url(/photos/boats.png)
+}
+
+.background-percy{
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  height:max-content;
+  width:100%;
+  position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 70, 67, 0.5),rgba(0, 70, 67,0.5)), url("https://i0.pickpik.com/photos/39/782/512/forest-trees-nature-landscape-preview.jpg")
+}
+
+.background-tree{
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  height:max-content;
+  width:100%;
+  position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 70, 67, 0.5),rgba(0, 70, 67,0.5)), url("https://www.austinmonitor.com/wp-content/uploads/2022/02/upwk61645964-wikimedia-image.jpg")
+}
+
+.background-thorns{
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  height:max-content;
+  width:100%;
+  position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 70, 67, 0.5),rgba(0, 70, 67,0.5)), url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/frtrees_group_nature_green-image-kybackck.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=9d5593202f5e8a9625562fb452635115")
+}
+
+.background-moon{
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  height:max-content;
+  width:100%;
+  position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: linear-gradient(rgba(74,84,86,0.5),rgba(24,42,32,0.8)), url("photos/moonbanner.jpg");
+}
+/* title */
+.title{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 60px;
+  color: white;
+  letter-spacing: 5px;
+  position: relative;
+  left: 40px;
+  display:inline-block;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+  width: 90%;
+}
+
+.title h1{
+  margin-top: 0;
+  font-size: 9vw;
+}
+
+/* nav */
+ul {
+  padding: 1.5em; 
+  text-align: right;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  padding: 1em;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+a:hover{
+  cursor: pointer;
+  text-shadow: 0 0 8px #fff700
+    
+}
+
+
+/* dropdown in nav */
+.dropbtn{
+  text-decoration: none;
+  padding-bottom: 10px;
+  font-size: 1.2em;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  background-color: transparent;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-stuff {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.dropdown-stuff a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-stuff a:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+  color: white;
+  text-decoration-thickness: 1px;
+
+}
+
+.dropdown:hover .dropdown-stuff {
+  display: block;
+}
+
+
+
+/* latest posts */
+.parent{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  gap: 10px;
+  overflow: auto;
+}
+
+.parent-aboutus{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  gap: 10px;
+  overflow: auto;
+  background-color: #29473a;
+  border-radius: 25px;
+}
+.child{
+  overflow: auto;
+  width: 15vw;
+  z-index: 1px;
+}
+
+.child4{
+  overflow: auto;
+  width: 225px;
+  z-index: 1px;
+  text-align: center;
+}
+
+.pfp{
+  border-radius: 20px;
+  width: 140px;
+  height: 140px;
+}
+
+
+.child:hover{
+  transform: scale(1.01);
+  box-shadow: 0 0 11px rgba(33,33,33,.35);
+  cursor: pointer;
+}
+
+.baby{
+  width: 100%;
+  height: 100%;
+}
+
+.center{
+  font-family: 'Montserrat', sans-serif; 
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 5vw;
+}
+
+
+/* quote */
+.quote{
+  font-size: 5vw;
+  text-align: center;
+  margin: 0px;
+}
+.quote1{
+  width:100%;
+ 
+  text-align: center;
+  margin: 0px;
+}
+
+.quotediv{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:
+#719c40;
+  padding: 30px;
+  margin-top: 50px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.quotediv1{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  padding: 30px;
+  margin-top: 50px;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* paragraphs */
+.about-title{
+  font-size: 4vw;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.paragraph{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  font-size: 2.5vw;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+}
+
+
+.books{
+  width: 328px;
+  height: 500px;
+}
+
+.h2{
+  font-size: 4vw;
+}
+
+/* Media Queries */
+
+
+
+
+
+
+
+
